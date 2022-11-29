@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-html {
+:root {
+    --neutral-color-bgc: hsl(36, 100%, 99%);
+    --neutral-color-font: hsl(240, 100%, 5%);
     font-family: 'Inter';
     font-size: 10px;
 }
@@ -17,10 +19,10 @@ body {
 }
 
 .wrapper {
-    margin: 3vh;
+    padding: 3vh;
 }
 
 .baner img {
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
