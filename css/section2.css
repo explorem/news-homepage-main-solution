@@ -1,0 +1,16 @@
+.popular__article {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3vh;
+    color: var(--neutral-color-secondary);
+}
+
+.popular__article>img {
+    width: 30%;
+    margin-right: 3vh;
+}
+
+.popular__article>div>p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: 700;
+}
