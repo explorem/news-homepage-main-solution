@@ -1,0 +1,43 @@
+.new {
+    margin-bottom: 8vh;
+    padding: 3vh;
+    background-color: var(--neutral-color-font);
+}
+
+.new h2 {
+    font-size: 3.2rem;
+    color: var(--primary-color-second);
+}
+
+.new div {
+    padding: 4vh 0;
+    border-bottom: 1px solid var(--neutral-color-font-dark-mode);
+}
+
+.new div:nth-last-of-type(1) {
+    padding-bottom: 2vh;
+    border: none;
+}
+
+.new a {
+    display: inline-block;
+    margin-bottom: 2vh;
+    color: var(--neutral-color-bgc);
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.new p {
+    color: var(--neutral-color-font-dark-mode);
+    line-height: 160%;
+}
+
+@media (min-width: 760px) and (orientation: portrait) {
+    .new a {
+        font-size: 2.2rem;
+    }
+
+    .new p {
+        font-size: 1.8rem;
+    }
+}
