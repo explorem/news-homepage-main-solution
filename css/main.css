@@ -1,0 +1,41 @@
+.main {
+    padding-top: 12vh;
+    padding-bottom: 8vh;
+}
+
+.main__baner img {
+    width: 100%;
+}
+
+.main__article h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 105%;
+}
+
+.main__article p {
+    color: var(--neutral-color-secondary);
+    line-height: 160%;
+}
+
+.main__article a {
+    display: inline-block;
+    width: 50%;
+    margin-top: 3vh;
+    background-color: var(--primary-color-one);
+    color: var(--neutral-color-bgc);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 50px;
+    text-align: center;
+}
+
+@media (min-width: 760px) and (orientation: portrait) {
+    .main__article p {
+        font-size: 1.8rem;
+    }
+}

@@ -7,8 +7,12 @@
 }
 
 :root {
+    --primary-color-one: hsl(5, 85%, 63%);
+    --primary-color-second: hsl(35, 77%, 62%);
     --neutral-color-bgc: hsl(36, 100%, 99%);
     --neutral-color-font: hsl(240, 100%, 5%);
+    --neutral-color-secondary: hsl(236, 13%, 42%);
+    --neutral-color-font-dark-mode: hsl(233, 8%, 79%);
     font-family: 'Inter';
     font-size: 10px;
 }
@@ -16,13 +20,9 @@
 body {
     display: flex;
     font-size: 1.5rem;
+    color: var(--neutral-color-font);
 }
 
 .wrapper {
     padding: 3vh;
-}
-
-.baner img {
-    width: 100%;
-    margin-top: 15vh;
 }
