@@ -19,10 +19,22 @@
 
 body {
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     color: var(--neutral-color-font);
 }
 
 .wrapper {
     padding: 3vh;
+}
+
+@media (min-width: 1024px) {
+    .wrapper {
+        width: 100%;
+        max-width: 1260px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
 }

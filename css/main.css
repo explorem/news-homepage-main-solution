@@ -1,6 +1,5 @@
 .main {
     margin-top: 12vh;
-    margin-bottom: 8vh;
 }
 
 .main__baner img {
@@ -32,10 +31,55 @@
     letter-spacing: 3px;
     line-height: 50px;
     text-align: center;
+    overflow: hidden;
 }
 
 @media (min-width: 760px) and (orientation: portrait) {
     .main__article p {
         font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main {
+        flex-basis: 70%;
+        flex-grow: 1;
+        margin-top: 0;
+        display: flex;
+    }
+
+    .main>div:nth-of-type(1) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__article {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vh;
+        flex-grow: 1;
+    }
+
+    .main__article h1 {
+        flex-basis: 50%;
+        margin: 0 30px 0 0;
+        font-size: 6.4rem;
+    }
+
+    .main__article>div:nth-last-of-type(1) {
+        flex-basis: 50%;
+    }
+
+    .main__article p {
+        font-size: 1.9rem;
+    }
+
+    .main__article a {
+        margin-top: 4vh;
+        transition: 0.5s;
+    }
+
+    .main__article a:hover {
+        background-color: var(--neutral-color-font);
     }
 }

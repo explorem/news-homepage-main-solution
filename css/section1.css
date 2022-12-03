@@ -1,4 +1,5 @@
 .new {
+    margin-top: 8vh;
     margin-bottom: 8vh;
     padding: 3vh;
     background-color: var(--neutral-color-font);
@@ -25,11 +26,14 @@
     color: var(--neutral-color-bgc);
     font-size: 1.8rem;
     text-decoration: none;
+    font-weight: 900;
+    transition: 0.5s;
 }
 
 .new p {
     color: var(--neutral-color-font-dark-mode);
     line-height: 160%;
+    font-weight: 400;
 }
 
 @media (min-width: 760px) and (orientation: portrait) {
@@ -39,5 +43,16 @@
 
     .new p {
         font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .new {
+        min-width: 300px;
+        margin: 0 0 0 3vh;
+    }
+
+    .new a:hover {
+        color: var(--primary-color-second);
     }
 }
